@@ -1,0 +1,299 @@
+* {
+/*	margin: 0;
+	padding: 0;
+	*/
+}
+
+body {
+	margin: 0;
+}
+
+.main-header {
+	background-image: url(../img/Background-header.jpg);
+	background-color: #1b1b1d;
+}
+
+.main-header-container {
+	padding-top: 60px;
+}
+
+.main-header-heading {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-menu ul {
+	padding-left: 0;
+}
+
+.main-menu ul li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 40px;
+}
+
+.main-menu-link {
+	color: #c5c5c5;
+	text-decoration: none;
+}
+
+.main-menu-link:hover {
+	color: #f1cdb3;
+	text-decoration: underline;
+}
+
+.main-header-content {
+	padding-top: 260px;
+	padding-bottom: 270px;
+	color: #ffffff;
+}
+
+.header-title {
+	padding-bottom: 50px;
+}
+
+.header-main-desc {
+	color: #c5c5c5;
+	padding-bottom: 46px;
+}
+
+.friend-button {
+	height: 52px;
+	width: 205px;
+	background-color: #f1cdb3;
+	color: #292929;
+	border: 0 none #f1cdb3;
+	border-radius: 26px;
+}
+
+.friend-button:hover {
+	background-color: #fddcc4;
+}
+
+.main {
+}
+
+.main-bgr-img {
+	background-image: url(../img/main-bgr-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about-text {
+	padding-top: 120px;
+	padding-left: 580px;
+	padding-bottom: 120px;
+	width: 420px;
+	color: #545454;
+}
+
+.about-text p {
+	padding-top: 45px;
+	color: #5c5c5c;
+}
+
+.section-pets {
+	background-color: #f6f6f6;
+}
+
+.container-pets {
+	color: #545454;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-pets h2 {
+	text-align: center;
+}
+
+.container-pets-carousel {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.container-pet {
+	background-color: #fafafa;
+	border-radius: 20px;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+	margin-top: 5px;
+	}
+
+.container-pet:hover {
+	background-color: #fafafa;
+	 box-shadow: 0px 2px 30.1px 4.9px rgba(13, 13, 13, 0.04);
+}
+
+.container-pet-button {
+	height: 52px;
+	width: 185px;
+	border-radius: 26px;
+	border: 2px solid #f1cdb3;
+	color: #292929;
+}
+
+.container-pet:hover .container-pet-button {
+	background-color: #f1cdb3;
+}
+
+.container-pet-button:click {
+	border: 6px solid #bf906e;
+}
+
+.container-pets-submit-button {
+	height: 52px;
+	width: 265px;
+	border-radius: 26px;
+	border: 2px solid #f1cdb3;
+	color: #292929;
+	background-color: #f1cdb3;
+	margin-bottom: 65px;
+}
+
+.container-pets-submit-button:hover {
+	background-color: #fddcc4;
+}
+
+
+.container-shelteer-help {
+	mt
+	mb
+}
+
+.container-shelter-help h2 {
+	text-align: center;
+	margin-top: 75px;
+	color: #545454;
+}
+
+.container-shelter-help ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	list-style-type: none;
+	max-width: 1050px;
+	margin-bottom: 60px;
+}
+
+.container-shelter-help ul li {
+	width: 165px;
+	height: 110px;
+	margin: 50px 10px 0px 10px;
+}
+
+.container-shelter-help a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;	
+	color: #545454;
+}
+
+.container-shelter-help a:hover {
+	color: #545454;
+}
+
+.container-shelter-help p {
+	margin-top: 30px;
+}
+
+
+
+.section-donation {
+	color: #545454;
+	background-color: #f6f6f6;
+	background-image: url(../img/Dog-donation.png);
+	background-repeat: no-repeat;
+}
+
+.donation-area {
+	margin-left: 585px;
+	width: 355px;
+}
+
+.donation-area h2 {
+	margin-bottom: 35px;
+}
+
+.legal-bank-info {
+	color: #b2b2b2;
+}
+
+.Active_card__Hover_ {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 3735px;
+  z-index: 150;
+}
+.Button_Hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 3735px;
+  z-index: 149;
+}
+.Learn_More {
+  font-size: 17px;
+  font-family: "Georgia";
+  color: rgb(41, 41, 41);
+  line-height: 3.353;
+  text-align: right;
+  position: absolute;
+  left: 1231px;
+  top: 2068.5px;
+  z-index: 148;
+}
+.Прямоугольник__скругл__углы_1 {
+  border-width: 2px;
+  border-color: rgb(241, 205, 179);
+  border-style: solid;
+  background-color: rgb(241, 205, 179);
+  position: absolute;
+  left: 1186px;
+  top: 2072px;
+  width: 184px;
+  height: 48px;
+  z-index: 147;
+}
+.Woody {
+  font-size: 20px;
+  font-family: "Georgia";
+  color: rgb(84, 84, 84);
+  line-height: 2.25;
+  text-align: center;
+  position: absolute;
+  left: 1245.96px;
+  top: 2063.57px;
+  z-index: 141;
+}
+.Dog {
+  background-image: url("Dog.png");
+  position: absolute;
+  left: 1187px;
+  top: 1724px;
+  width: 206px;
+  height: 309px;
+  z-index: 140;
+}
+.Place_for_photo {
+  background-color: rgb(250, 250, 250);
+  position: absolute;
+  left: 1145px;
+  top: 1734px;
+  width: 270px;
+  height: 270px;
+  z-index: 139;
+}
